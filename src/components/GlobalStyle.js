@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
 body{
     background:#1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 
 button{
@@ -24,6 +25,7 @@ button{
         background-color: #23d997;
         color: white;
     }
+    font-family: 'Inter', sans-serif;
 }
 h2{
     font-weight: lighter;
@@ -46,6 +48,7 @@ p{
     padding: 3rem 0rem;
     color: #ccc;
     font-size: 1.4rem;
+    line-height: 150%
 }
 `;
 
