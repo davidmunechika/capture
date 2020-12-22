@@ -14,9 +14,11 @@ export const Description = styled.div`
   h2 {
     font-weight: lighter;
   }
+  z-index: 2;
 `;
 export const Image = styled.div`
   flex: 1;
+  z-index: 2;
   overflow: hidden;
   img {
     width: 100%;
