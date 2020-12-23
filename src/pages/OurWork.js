@@ -45,14 +45,19 @@ const OurWork = () => {
       </Movie>
       <Movie ref={element} variants={fade} animate={controls} initial="hidden">
         <h2>The Racer</h2>
-        <div className="line"></div>
+        <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-racer">
           <img src={theracer} alt="theracer" />
         </Link>
       </Movie>
-      <Movie>
+      <Movie
+        ref={element2}
+        variants={fade}
+        animate={controls2}
+        initial="hidden"
+      >
         <h2>Good Times</h2>
-        <div className="line"></div>
+        <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="good-times">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
