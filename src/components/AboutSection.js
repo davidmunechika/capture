@@ -21,7 +21,7 @@ const AboutSection = () => {
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variantas={titleAnim}>true.</motion.h2>
+            <motion.h2 variants={titleAnim}>true.</motion.h2>
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
